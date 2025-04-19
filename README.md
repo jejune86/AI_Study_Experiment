@@ -1,1 +1,1 @@
-# AI_Study_EXperiment
+# AI_Study_Experiment
