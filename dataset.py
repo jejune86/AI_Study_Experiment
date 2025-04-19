@@ -33,4 +33,5 @@ class MelSpectrogramDataset(Dataset):
 
         # 파일명 예시: mel_00003_4.pt → label은 맨 끝
         label = int(os.path.basename(path).split('_')[-1].replace(".pt", ""))
+        
         return mel, label
