@@ -4,8 +4,8 @@ from torch.utils.data import DataLoader
 from sklearn.model_selection import train_test_split
 import os
 from glob import glob
-from model import EmotionCNN
-from dataset import MelSpectrogramDataset
+from emotion_classification_mel.model import EmotionCNN
+from emotion_classification_mel.dataset import MelSpectrogramDataset
 from tqdm import tqdm
 
 
